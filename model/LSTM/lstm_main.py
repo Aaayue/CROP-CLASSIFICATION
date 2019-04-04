@@ -5,11 +5,11 @@ import json
 import socket
 import numpy as np
 import pandas as pd
-from baikal.script.common import logger
+from CROP_CLASSIFICATIO.script.common import logger
 from os.path import join
-from baikal.model.LSTM.LSTModel import LSTModel
-from baikal.model.LSTM.TrainDataFlat import batch_run
-from baikal.model.LSTM.TrainDataSG import TrainDataSG
+from CROP_CLASSIFICATIO.model.LSTM.LSTModel import LSTModel
+from CROP_CLASSIFICATIO.model.LSTM.TrainDataFlat import batch_run
+from CROP_CLASSIFICATIO.model.LSTM.TrainDataSG import TrainDataSG
 logger.handlers.pop()
 
 
