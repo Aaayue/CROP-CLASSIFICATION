@@ -5,11 +5,11 @@ import json
 import socket
 import numpy as np
 import pandas as pd
-from CROP_CLASSIFICATIO.script.common import logger
+from CROP_CLASSIFICATION.script.common import logger
 from os.path import join
-from CROP_CLASSIFICATIO.model.LSTM.LSTModel import LSTModel
-from CROP_CLASSIFICATIO.model.LSTM.TrainDataFlat import batch_run
-from CROP_CLASSIFICATIO.model.LSTM.TrainDataSG import TrainDataSG
+from CROP_CLASSIFICATION.model.LSTM.LSTModel import LSTModel
+from CROP_CLASSIFICATION.model.LSTM.TrainDataFlat import batch_run
+from CROP_CLASSIFICATION.model.LSTM.TrainDataSG import TrainDataSG
 logger.handlers.pop()
 
 

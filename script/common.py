@@ -5,7 +5,7 @@ import logging
 import colorlog
 
 script_path = os.path.abspath(__file__)
-package_path = re.findall(".*/CROP_CLASSIFICATIO", script_path)[0]
+package_path = re.findall(".*/CROP_CLASSIFICATION", script_path)[0]
 dir = os.path.dirname(package_path)
 # print(dir)
 sys.path.append(dir)

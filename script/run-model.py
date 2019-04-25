@@ -1,10 +1,10 @@
 import argparse
 import pprint
 from common import logger
-from CROP_CLASSIFICATIO.model.LSTM.lstm_main import main_stuff
-from CROP_CLASSIFICATIO.model.DecisionTree import DecisionTree
-from CROP_CLASSIFICATIO.model.SvmModel import SVMClassifier
-from CROP_CLASSIFICATIO.model.MLPClassifier import MLPNetWork
+from CROP_CLASSIFICATION.model.LSTM.lstm_main import main_stuff
+from CROP_CLASSIFICATION.model.DecisionTree import DecisionTree
+from CROP_CLASSIFICATION.model.SvmModel import SVMClassifier
+from CROP_CLASSIFICATION.model.MLPClassifier import MLPNetWork
 
 
 def do_stuff(
