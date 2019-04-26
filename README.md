@@ -3,7 +3,7 @@
 
 This repo is all about the models we used for crop classification.
 
-Usually LSTM is the prefered choice for crop classification based on time series date. while since the LSTM model is time-costing, some other models are also used in project, such as MLP, SVM, DT, all the model parameters can insert from command lines. 
+Usually LSTM is the prefered choice for crop classification based on time series date. while since the LSTM model is time-costing, some other models are also used in project, such as MLP, SVM, DT, all the model parameters can insert from command lines, except MC-DCNN. 
 
 Please run ./script/run-model.py and use "-h" for help.
 
